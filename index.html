@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filter</title>
+    <style>
+        /* img{
+            filter: blur(10px);
+        } */
+        .img1{
+            filter: brightness(120%) saturate(0.8);
+        }
+       
+        .img2{
+            filter: grayscale(120%);
+        }
+        .img3{
+            /* filter: sepia(60%); */
+            filter: invert(0.2);
+            filter: opacity(0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img1" src="https://www.shutterstock.com/image-photo/hands-typing-on-laptop-programming-600nw-2480023489.jpg" alt="">
+        <img src="https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1711029665754_Work-OC(5).jpg?type=mq" width="800px" height="450px" alt="" class="img2">
+
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202411/hardik-pandya-310441458-3x4.jpg?VersionId=cs_KC1AvYW5yB5PxDxleUn453PQnud4K" alt="" class="img3">
+    </div>
+</body>
+</html>
